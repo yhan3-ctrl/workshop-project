@@ -1,12 +1,12 @@
 {
   "name": "Project workspace",
-  "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "image": "mcr.microsoft.com/devcontainers/universal@sha256:584e41561451c910dcd96221634be07545803aed9cd437a60288f06ddeaf5880",
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
-      "version": "lts"
+      "version": "22.23.3"
     }
   },
-  "postCreateCommand": "npm install -g @google/gemini-cli",
+  "postCreateCommand": "npm install -g @google/gemini-cli@0.62.0",
   "customizations": {
     "vscode": {
       "extensions": [
