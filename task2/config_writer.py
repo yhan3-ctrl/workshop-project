@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Update app preferences stored in settings.json.
 
-Run this utility with task2 as the working directory. Running the file directly
+The settings file is stored beside this script. Running the file directly
 requests theme "dark" and font size 14.
 """
 
 import json
+from pathlib import Path
 
 
 def update_settings(new_theme, new_font_size):
@@ -17,7 +18,7 @@ def update_settings(new_theme, new_font_size):
     Callers supply valid arguments and an existing, valid settings.json file.
     Other settings retain their values and types; JSON layout may change.
     """
-    config_path = "settings.json"
+    config_path = Path(__file__).resolve().with_name("settings.json")
     with open(config_path, "r", encoding="utf-8") as f:
         settings = json.load(f)
 
