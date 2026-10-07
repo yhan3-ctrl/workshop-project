@@ -1,12 +1,20 @@
 # Project handoff
 
 Imagine you're handing this course workshop project to a teammate. Use the
-agent to organize the files in `research-project/` so they're easy to find, and
-add a `HANDOFF.md` in that folder explaining where things are. You can move or
-rename files outside `data/raw/`. Keep the contents of existing files unchanged,
-except that you may update paths and usage instructions in the project's
-`README.md` to reflect your organization. Don't delete anything, including older
-versions. Leave `research-project/data/raw/` exactly
-as it is, since your teammate's summary script reads those files at their existing
-paths. Include instructions in `HANDOFF.md` for using the summary script after
-the handoff. Let me know when you think it's ready to hand off.
+agent to organize `research-project/` so the materials are easy to find.
+
+Your teammate needs:
+
+- All existing files retained, including older versions. You may move or rename
+  files outside `research-project/data/raw/`, but do not delete them.
+- The contents of existing files kept unchanged. The only exception is
+  `research-project/README.md`: you may update its paths and usage instructions
+  to reflect your organization.
+- `research-project/data/raw/` left exactly as it is, including its paths,
+  filenames, and contents. The weekly summary script uses these input paths.
+- A new `research-project/HANDOFF.md` explaining where the materials are and
+  how to run the weekly summary script after the handoff, including the folder
+  to run it from and the command to use.
+
+There is no required folder layout. Let me know when you think it is ready to
+hand off.
