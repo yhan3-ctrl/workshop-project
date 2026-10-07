@@ -5,7 +5,15 @@ you which activity to open. Please approach each activity as you normally would
 on a comparable project, within the session time available. Let the facilitator
 know when you consider the activity complete.
 
-## Tools
+## Starting the workspace
+
+Open this repository's **Code > Codespaces** tab and create a new Codespace on
+`main` using your own GitHub account. Wait for setup to finish before beginning.
+For a new session, start with a new Codespace rather than reusing one with
+changes from an earlier activity. The facilitator will help with setup and tell
+you which activity to open first.
+
+## Using the tools
 
 You may use GitHub Copilot in the editor or Gemini CLI in the terminal, whichever
 you are comfortable using and have access to. Use Copilot's Agent mode for an
