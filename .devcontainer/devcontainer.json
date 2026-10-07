@@ -6,7 +6,7 @@
       "version": "22.23.3"
     }
   },
-  "postCreateCommand": "npm install -g @google/gemini-cli@0.62.0",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
   "customizations": {
     "vscode": {
       "extensions": [
